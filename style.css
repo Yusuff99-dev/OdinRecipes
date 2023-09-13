@@ -19,6 +19,18 @@ h1{
     margin-bottom: 2rem;
 }
 
+p{
+    color: white;
+}
+
+h2{
+    font-family: 'norseregular';
+    font-size: 4rem;
+    text-align: left;
+    color: white;
+    margin-bottom: 2rem;
+}
+
 .grid-container{
     display: flex;
     padding-left: 10%;
@@ -41,6 +53,10 @@ h1{
     height: auto;;
 }
 
+.container2{
+    display: flex;
+}
+
 .divider{
     display: block;
     margin-left: auto;
@@ -58,19 +74,14 @@ h1{
     -ms-transform: translate(-50%, -50%);
     text-align: center;
     color:white;
-    font-size: 40px;
+    font-size: 3rem;
     transition: 0.5s;
-}
-
-.subcaption{
-    font-size: 1.5rem; 
-    margin-top: 6rem;
 }
 
 
 .recipeimg{
     opacity: 1;
-    width: 600px;
+    width: 75%;
     box-shadow: rgba(255, 255, 255, 0.35) 0px 5px 15px;
     opacity: 1;
     transition: .5s ease;
@@ -80,7 +91,7 @@ hr.rounded {
     border-top: 8px solid #bbb;
     border-radius: 5px;
     width: 30%;
-    margin-bottom: 2rem;
+    margin-bottom: 3rem;
 }
 
 .grid-item:hover .recipeimg{

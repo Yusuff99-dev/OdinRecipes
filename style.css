@@ -1,0 +1,101 @@
+@font-face {
+    font-family: 'norseregular';
+    src: url('webkit/norse-webfont.woff2') format('woff2'),
+         url('webkit/norse-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body{
+    background-color: black;
+}
+
+h1{
+    font-family: 'norseregular';
+    font-size: 10rem;
+    text-align: center;
+    color: white;
+    margin-bottom: 2rem;
+}
+
+.grid-container{
+    display: flex;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.grid-item{
+    position: relative;
+    flex: 1;
+    text-align: center;
+}
+
+
+.logo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 3rem;
+    width: 5%;
+    height: auto;;
+}
+
+.divider{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+.caption{
+    font-family:'norseregular';
+    position: absolute;
+    opacity: 0;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+    color:white;
+    font-size: 40px;
+    transition: 0.5s;
+}
+
+.subcaption{
+    font-size: 1.5rem; 
+    margin-top: 6rem;
+}
+
+
+.recipeimg{
+    opacity: 1;
+    width: 600px;
+    box-shadow: rgba(255, 255, 255, 0.35) 0px 5px 15px;
+    opacity: 1;
+    transition: .5s ease;
+}
+
+hr.rounded {
+    border-top: 8px solid #bbb;
+    border-radius: 5px;
+    width: 30%;
+    margin-bottom: 2rem;
+}
+
+.grid-item:hover .recipeimg{
+    opacity: 0.3;
+}
+
+.grid-item:hover .caption{
+    opacity: 1;
+}
+
+footer{
+    margin-top: 50px;
+    font-family:'norseregular';
+    text-align: center;
+    color:white;
+    font-size: 32px;
+}
+
